@@ -51,7 +51,6 @@ const vm=new Vue({
                 await axios.post(url,this.newUser).then(res => {
                     console.log(res.body);
                 })
-                
             }
         },
         async getUserById(index){
