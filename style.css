@@ -1,0 +1,108 @@
+.oneCard{
+  text-align: center;
+  margin: auto;
+  width: 13rem;
+  height: 14rem;
+
+  background: linear-gradient(to left bottom, rgba(0, 225, 255, 0.75),rgba(0, 17, 255, 0.75));
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2rem;
+  margin: 0.5rem;
+  margin-right: 1rem;
+}.editCard{
+  text-align: center;
+  margin: auto;
+  width: 13rem;
+  height: 14rem;
+
+  background: linear-gradient(to left bottom, rgba(0, 225, 255, 0.75),rgba(0, 17, 255, 0.75));
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 2rem;
+  margin: 0.5rem;
+  margin-right: 1rem;
+}.editCard:hover{
+  height: auto;
+}
+.noneDiv{
+    display: none;
+}.noneDiv:hover{
+  display: block;
+}
+.changeHover{
+    display: inline-block;
+}
+.changeHover:hover + .noneDiv{
+    display: block;
+}
+.text{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  background: linear-gradient(to right, red, blue);
+  background-position: center;
+  background-size: auto;
+  font-style: italic;
+  font-size: larger;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.introduction{
+  color: rgb(255, 167, 4);
+  text-align: center;
+  font-style: oblique;
+}
+.register{
+  text-align: center;
+  background-color: cyan;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 3rem;
+  width: 16rem;
+  height: 18rem;
+  background: linear-gradient(to bottom, cyan, blue);
+}
+.photo{
+  margin-top: 2%;
+  text-align: center;
+  min-height: 50px;
+  max-height: 100px;
+  max-width: 13rem;
+  border: 5px rgb(255, 255, 255);
+  border-style: ridge;
+}
+.deleteButton{
+  background-color: slateblue;
+  border-radius: 1rem;
+  background: linear-gradient(to left bottom,rgb(200, 255, 0), rgb(189, 0, 79));
+}.deleteButton:hover{
+  background: linear-gradient(to left bottom, rgb(189, 0, 79),rgb(200, 255, 0));
+}
+.asd{
+  height: 9rem;
+  width: 16rem;
+  border: 2px solid;
+  color: crimson;
+}.asd:hover{
+  font-display: initial;
+  font-style: italic;
+}
+ 
+.SignUp{
+  height: 17rem;
+  width: 15rem;
+  margin: auto;
+  text-align: center;
+  border:solid 1px rgb(219, 219, 219);
+}
+.mytext{
+  font-family: Garamond,Serif;
+  font-size: 120%;
+}
+a{
+  color: rgb(53, 52, 52);
+  font-family: cursive;
+  font-size: large;
+}
+a:hover{
+  color: rgb(1,1,1);
+  font-style: italic;
+}
